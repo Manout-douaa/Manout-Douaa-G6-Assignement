@@ -201,7 +201,8 @@ Si cette valeur maximale est présente plusieurs fois dans la liste, on retourne
 ```
 ###CORRECTION 
 
-```l = [3,8,15,-1,0,12]
+```
+l = [3,8,15,-1,0,12]
 def argmax(l):
     m,k = l[0],0  # DOUAA MANOUT
     for i,e in enumerate(l):
@@ -213,7 +214,9 @@ def argmax(l):
 l = [3,8,15,-1,0,12]
 
 ma, po =argmax(l)      
-print("max : ", ma, "------>", po)```
+print("max : ", ma, "------>", po)
+
+```
 <div id="pad_4.1" class="pad"></div>
 <script>
     Pythonpad('pad_4.1', 
