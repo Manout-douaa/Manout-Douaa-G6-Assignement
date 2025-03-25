@@ -544,7 +544,12 @@ while 0 in L:
   L.remove (0)
 print (L)
 ```
-
+## EXERCICE 
+```
+def union(A,B)
+   c=[]
+   for e not in A :
+   c.append(e)
 
 ## Liste des exercices de ce chapitre
 
